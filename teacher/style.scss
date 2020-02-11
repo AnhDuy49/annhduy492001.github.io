@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+}
+.cols{
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+.logo{
+	text-align: center;
+	background: #fff5e9;
+}
+.part_1{
+	font-family: 'Pacifico', cursive;
+	text-transform: capitalize;
+	background: linear-gradient(#b32317, #e89719, #ffd24f);
+	color: #fff;
+	h2{
+		position: absolute;
+		top: 35%;
+		left: 50%;
+		transform: translate(-50%);
+	}
+}
+.part_2{
+	background: url("—Pngtree—teachers day teacher cartoon hand_4088026.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	.header{
+		font-size: 40px;
+		background: rgb(255,210,79);
+		padding: 10px;
+		color: #fff;
+		font-family: 'Indie Flower', cursive;
+		text-align:center;
+	}
+	.demo{
+		color: #fff;
+		background: rgba(255,210,79,0.2);
+		margin: 5px;
+		border-radius: 10px;
+	}
+}
+.part_3{
+	.header{
+		font-size: 40px;
+		font-family: 'Indie Flower', cursive;
+		text-align: center;
+		border-bottom: 5px solid rgb(255,210,79);
+	}
+	border-radius: 15px;
+	color: rgb(255,210,79);
+	padding: 15px;
+	.form{
+		margin: 5px;
+		input{
+			color: #88746a;
+			border: hidden;
+		}
+		textarea{
+			color: #e89719;
+			height: 150px;
+		}
+	}
+}
+.part_4{
+	font-family: 'Pacifico', cursive;
+	text-transform: capitalize;
+	background: linear-gradient(#b32317, #e89719, #ffd24f);
+	color: #fff;
+	h1{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%);
+	}
+}	
